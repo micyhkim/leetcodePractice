@@ -17,8 +17,11 @@ public:
         return sub.size() < k ? -1 : sub[k-1];
         */
         
+        // O(sqrt(n)) cases using math
+        // Init divisor array
         vector<int> sub;
         int rooted = (int) sqrt(n);
+        // Iterate over 1 - sqrt(n), decrement k, if k reaches 0, that is kth factor
         for(int i = 1; i <= rooted; ++i){
             if(n % i == 0){
                 sub.push_back(i);
@@ -28,7 +31,7 @@ public:
                 }
             }
         }
-        
+        // In case of n is perfect square we need to ignore the duplicate after divisor length 
         if(rooted * rooted == n){
             k += 1;
         }
@@ -37,6 +40,7 @@ public:
             return -1;
         }
         else{
+        // Return answer for k greater than sub.size by dividing the element by n
             return n/sub[sub.size()-k];
         }      
     }
