@@ -44,6 +44,6 @@ So the sum of all ranges is 0 + 0 + 0 + 2 + 0 + 2 = 4.
 
 ### Constraints
 <pre>
-<li>1 <= nums.length <= 1000</li>
-<li>-109 <= nums[i] <= 109</li>
+* 1 <= nums.length <= 1000
+* 1e-9 <= nums[i] <= 1e9
 </pre>
