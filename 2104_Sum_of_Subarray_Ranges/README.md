@@ -9,9 +9,9 @@ A subarray is a contiguous non-empty sequence of elements within an array.
 ### Examples
 #### Example 1
 ```
-Input: nums = [1,2,3]
-Output: 4
-Explanation: The 6 subarrays of nums are the following:
+<b>Input</b>: nums = [1,2,3]
+<b>Output</b>: 4
+<b>Explanation</b>: The 6 subarrays of nums are the following:
 [1], range = largest - smallest = 1 - 1 = 0 
 [2], range = 2 - 2 = 0
 [3], range = 3 - 3 = 0
