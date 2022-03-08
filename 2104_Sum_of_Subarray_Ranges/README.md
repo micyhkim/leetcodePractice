@@ -45,3 +45,17 @@ So the sum of all ranges is 0 + 0 + 0 + 2 + 0 + 2 = 4.
 ### Constraints
 * 1 <= nums.length <= 1000
 * 1e-9 <= nums[i] <= 1e9
+
+## Solution
+### Idea
+We need to come up with **O(n)** solution to optimize, and we can achieve using monotomic stack.  
+The idea is calculating contribution of each element in the list.  
+For example, in the list
+<pre>
+[2,3,8,7]
+We have subarray ranges
+$ - 2-2 / 3-2 / 8-2 / 7-2
+$ - 3-3 / 8-3 / 8-3
+$ - 8-8 / 8-7
+$ - 7-7
+<\pre>
