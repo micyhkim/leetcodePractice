@@ -43,7 +43,5 @@ So the sum of all ranges is 0 + 0 + 0 + 2 + 0 + 2 = 4.
 </pre>
 
 ### Constraints
-<pre>
 * 1 <= nums.length <= 1000
 * 1e-9 <= nums[i] <= 1e9
-</pre>
