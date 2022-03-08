@@ -8,7 +8,7 @@ Return the sum of all subarray ranges of nums.
 A subarray is a contiguous non-empty sequence of elements within an array.  
 ### Examples
 #### Example 1
-```
+<pre>
 <b>Input</b>: nums = [1,2,3]
 <b>Output</b>: 4
 <b>Explanation</b>: The 6 subarrays of nums are the following:
@@ -19,4 +19,4 @@ A subarray is a contiguous non-empty sequence of elements within an array.
 [2,3], range = 3 - 2 = 1
 [1,2,3], range = 3 - 1 = 2
 So the sum of all ranges is 0 + 0 + 0 + 1 + 1 + 2 = 4.
-```
+</pre>
