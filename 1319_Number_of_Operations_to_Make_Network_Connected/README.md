@@ -14,3 +14,7 @@ we mark another nodes being inserted into the queue to have id of the previous i
 * If the node is not visited, we perform dfs starting from the node. Insert the node to the queue and perform search algorithm, marking
 chunk_id for all connected nodes to have the same id.
 * Find the number of unique ids after search algorithm and subtract 1 because we want to find the edges between them.
+
+## Analysis
+* Runtime : We are iterating through whole connections and the number of n **O(n)**
+* Space : We create data structure of size n **O(n)**
